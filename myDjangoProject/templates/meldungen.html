@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Dies sind alle bisher eingegeangenen Meldungen:</h1>
+    {% for meldung in meldungen %}
+    <div id="content">
+      Meldung von :
+      <a href="/home/get_meldung/{{ meldung.id }}/">{{ meldung.first_name }} {{ meldung.last_name }}</a> !<br>
+    </div>
+    {% endfor %}
+  </body> 
+</html>

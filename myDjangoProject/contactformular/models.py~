@@ -1,0 +1,12 @@
+from django.db import models
+
+# Create your models here.
+
+class Kontaktformular_WTK_Anmeldung(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    age = models.IntegerField()
+    gender_w = models.ForeignKey(w)
+    gender_m = models.Foreigkey(m)
+    
+
