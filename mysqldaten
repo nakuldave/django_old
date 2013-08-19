@@ -1,0 +1,6 @@
+Mysql root PWD: djangotest
+
+mysql anleitung unter: http://wiki.ubuntuusers.de/MySQL
+
+Bspl.:
+mysql starten: sudo /etc/init.d/mysql start
