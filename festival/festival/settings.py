@@ -110,6 +110,7 @@ WSGI_APPLICATION = 'festival.wsgi.application'
 TEMPLATE_DIRS = (
     '/home/maike/django/festival/templates/',
     '/home/maike/django/festival/events/templates',
+    '/home/maike/django/festival/home/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -128,6 +129,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'home',
     'events',
+    'news',
 )
 
 # A sample logging configuration. The only tangible logging

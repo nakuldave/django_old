@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^Startseite/', include('home.urls')),
     url(r'^Veranstaltungen/', include('events.urls')),
+    url(r'^News/', include('news.urls')),
     # url(r'^$', 'festival.views.home', name='home'),
     # url(r'^festival/', include('festival.foo.urls')),
 

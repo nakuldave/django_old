@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="" type="text/css" />
+  </head>
+  <body>
+    <h1>Veranstaltungen</h1>
+    {% for event in events %}
+        <b>{{ event.date }} <a href="/Veranstaltungen/{{ event.id }}/">{{event.title}}</a></b><br>
+    {% endfor %}
+  </body> 
+</html>
